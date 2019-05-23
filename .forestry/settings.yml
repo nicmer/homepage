@@ -9,14 +9,12 @@ sections:
 - type: document
   path: content
   label: doc section - sidebar label
-  match: "**/*"
-  read_only: false
 - type: directory
   path: content
   label: label sidebar
-  create: all
+  create: none
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
