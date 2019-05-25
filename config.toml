@@ -1,8 +1,8 @@
 baseURL = "http://nicolasmerz.netlify.com"
-languageCode = "en-us"
-title = "Edna West"
+languageCode = "de-de"
+title = "Nicolas Merz"
 theme = "personal-web"
-copyright="© Edna West"
+copyright=""
 googleAnalytics = ""
 enableEmoji=true
 enableRobotsTXT=true
@@ -10,8 +10,8 @@ pygmentsUseClasses=true
 pygmentsCodeFences=true
 
 [params.intro]
-  main = "Hi, I'm Edna :wave:"
-  sub = "I'm a Web Developer and Entrepreneur"
+  main = "Nicolas Merz"
+  sub = "Political Data Scientist"
 
 [taxonomies]
   design = "designs"
@@ -33,8 +33,8 @@ pygmentsCodeFences=true
 [params.sections]
   # Define how your sections will be called
   # when automatically pulled. For instance in the 404 page
-  post = "article"
-  portfolio = "project"
+  post = "Beitrag"
+  portfolio = "Projekt"
 
 [params.sidebar]
   backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
@@ -45,19 +45,12 @@ pygmentsCodeFences=true
   customCSS = ""
 
 [params.social]
-  github = "https://github.com/"
-  twitter = "https://twitter.com/"
-  linkedin = "https://www.linkedin.com/in/"
-  medium = "https://medium.com/"
-  codepen = "https://codepen.io/"
-  facebook = "https://www.facebook.com/"
-  youtube = "https://www.youtube.com/"
+  github = "https://github.com/nicmer"
+  twitter = "https://twitter.com/nicmer"
   instagram = "https://www.instagram.com/"
-  gitlab = "https://gitlab.com/"
-  keybase = "https://keybase.io/"
-
+  
 [params.contact]
-  email = ""
+  email = "nicolasmerz@gmail.com"
   text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
 
 
@@ -79,7 +72,7 @@ pygmentsCodeFences=true
 
 [[menu.main]]
   identifier = "blog"
-  name = "Post"
+  name = "Blog"
   title = "Blog section"
   url = "/post/"
   weight = -100
