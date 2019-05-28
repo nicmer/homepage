@@ -10,7 +10,7 @@ pygmentsUseClasses=true
 pygmentsCodeFences=true
 
 [params.intro]
-  main = "Nicolas Merz"
+  main = "Nicolas Merz, "
   sub = "Political Data Scientist"
 
 [taxonomies]
@@ -37,7 +37,7 @@ pygmentsCodeFences=true
   portfolio = "Projekt"
 
 [params.sidebar]
- # backgroundImage = '' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  backgroundImage = "/images/sidebar.png" # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
   gradientOverlay = '' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
   logo = "/images/portrait.png" # - default "/images/portrait.png"
 [params.assets]
@@ -51,14 +51,14 @@ pygmentsCodeFences=true
   
 [params.contact]
   email = "nicolasmerz@gmail.com"
-  text= "" # text of the contact link in the sidebar. If email params.contact.email is defined
+  text= "@" # text of the contact link in the sidebar. If email params.contact.email is defined
 
 
 [menu]
 
 [[menu.main]]
   identifier = "about"
-  name = "About"
+  name = "Über mich"
   title = "About section"
   url = "/about/"
   weight = -120

@@ -4,7 +4,16 @@ description: Hey, I'm Edna West
 images: ["/images/sample.jpg"]
 ---
 
+I am political scientist.
 
-This is my about page. :wave:
 
-Lorem ipsum dolor sit amet, :smile: consectetur adipisicing elit. Voluptates aut, tenetur distinctio voluptatibus ab. Nihil id dignissimos unde, tenetur iusto facilis suscipit corporis, ipsam necessitatibus, eaque iste deleniti consequuntur reprehenderit? :earth_africa:
+political science
+
+politics
+
+data
+
+
+more
+
+I am a PUR-Fan, an Ultimate Frisbee lover and a batik-dyeing enthusiast. Need to know more? Write me.
