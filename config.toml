@@ -32,12 +32,6 @@ weight                 = -110
 identifier             = "blog"
 url                    = "/blog/"
 
-[[menu.main]]
-name                   = "Data Privacy"
-weight                 = -100
-identifier             = "dataprivacy"
-url                    = "/about/datenschutz"
-
 
 [params]
 include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
@@ -84,3 +78,25 @@ avatar                 = "img/portrait.png" # path to image in static dir e.g im
 # The following are DEPRECATED.
 #gatracker              = "XYZ" # use googleAnalytics instead
 #initials               = "ad"  # displayed on single post page; deprecated in v0.3.0.
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = true
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = true
+  [privacy.vimeo]
+    disable = false
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
