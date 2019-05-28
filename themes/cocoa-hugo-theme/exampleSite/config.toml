@@ -1,43 +1,39 @@
-baseURL = "https://www.nicolasmerz.de"
-languageCode = "de-de"
-title = "Nicolas Merz"
-theme = "cocoa-hugo-theme"
-copyright=""
-googleAnalytics = ""
-enableEmoji=true
-enableRobotsTXT=true
-pygmentsUseClasses=true
-pygmentsCodeFences=true
-
+baseurl             = "https://you.github.io/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+theme               = "cocoa"
+author              = "Arthur Dent"
+title               = "Arthur Dent"
+pygmentsuseclasses  = true
+disqusshortname     = "cocoaexamplesite" # Comment out to disable Disqus.
+pluralizelisttitles = false
+googleAnalytics     = "UA-123-45"
 
 [permalinks]
 blog  = "blog/:slug/"
 
-
-[[menu.main]]
-name                   = "About me"
-weight                 = -130
-identifier             = "about"
-url                    = "/about/"
-
-[[menu.main]]
-name                   = "Portfolio"
-weight                 = -120
-identifier             = "portfolio"
-url                    = "/portfolio/"
-
 [[menu.main]]
 name                   = "Blog"
-weight                 = -110
+weight                 = -120
 identifier             = "blog"
 url                    = "/blog/"
 
 [[menu.main]]
-name                   = "Data Privacy"
-weight                 = -100
-identifier             = "dataprivacy"
-url                    = "/about/datenschutz"
+name                   = "About"
+weight                 = -110
+identifier             = "Data Privacy"
+url                    = "datenschutz.md"
 
+
+[[menu.main]]
+name                   = "Code"
+weight                 = -100
+identifier             = "code"
+url                    = "/code/"
 
 [params]
 include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
@@ -51,15 +47,15 @@ description            = "Don't panic"
 email                  = "nicolasmerz@gmail.com"
 extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/leaf.ico"
-github                 = "//github.com/nicmer"
-instagram              = "//instagram.com/nicolasm___"
+github                 = "github.com/nicmer"
+instagram              = "instagram.com/nicolasm___"
 #px500                  = "//500px.com/username"
 lang                   = "en"
 #linkedin               = "//linkedin.com/in/you"
 noshowreadtime         = true                         # if true, don't show "<x> minutes read" in posts
-selfintro              = "I am a political data scientist."                            # appears in the site header when set to a non-empty string
+selfintro              = "Yes, test"                            # appears in the site header when set to a non-empty string
 twitter                = "//twitter.com/nicmer"
-#mastodon               = "//example.com/@you"
+mastodon               = "//example.com/@you"
 #telegram               = "//t.me/you"
 
 highlightjs            = true
@@ -70,7 +66,7 @@ piwik                  = false                         # If true, Piwik integrat
 # piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
 # piwik_id             = 2                             # Id of your site in Piwik
 
-#gitalk                 = false
+gitalk                 = false
 # if gitalk is true, the following params should be set. These parameters could be retrieved from github OAuth
 gitalk_clientID        = "your client id"
 gitalk_clientSecret    = "your client secret"
@@ -82,5 +78,5 @@ avatar                 = "img/portrait.png" # path to image in static dir e.g im
 # gravatar             = ""                # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
 
 # The following are DEPRECATED.
-#gatracker              = "XYZ" # use googleAnalytics instead
-#initials               = "ad"  # displayed on single post page; deprecated in v0.3.0.
+gatracker              = "XYZ" # use googleAnalytics instead
+initials               = "ad"  # displayed on single post page; deprecated in v0.3.0.
