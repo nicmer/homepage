@@ -1,0 +1,14 @@
+---
+title: test
+author: Nicolas Merz
+date: '2019-05-30'
+slug: teeest
+categories: []
+tags: []
+---
+
+# curious whether this works.
+
+```{r cool-plot, fig.cap='A cool plot.', echo = FALSE}
+plot(cars, pch = 20)  # not really cool
+```

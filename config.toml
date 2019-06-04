@@ -22,9 +22,15 @@ url                    = "/about/"
 
 [[menu.main]]
 name                   = "Portfolio"
-weight                 = -120
+weight                 = -130
 identifier             = "portfolio"
 url                    = "/portfolio/"
+
+[[menu.main]]
+name                   = "More Passions"
+weight                 = -120
+identifier             = "passions"
+url                    = "/passions/"
 
 [[menu.main]]
 name                   = "Blog"

@@ -9,11 +9,16 @@ title = "Portfolio"
 ### This and that
 
 
-### Bla and Blub
+### 
 
 
-### Insta Test
+### Dissertation
 
-I love food. And I love to eat it. As you can see on my Insta:
 
-{{< instagram Bx3AY40iKH5 >}}
+### Work in the Manifesto Project
+
+### Wahlprogrammquiz (Manifesto quiz)
+
+
+
+Passions
