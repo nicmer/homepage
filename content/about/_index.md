@@ -5,5 +5,23 @@ title = "about me"
 
 +++
 
+# About me
+
+### tl;dr
+
 I am political data scientist, a citizen, a fan of PUR, an ultimate frisbee lover and a batik-dyeing enthusiast. 
-Need to know more? Write me.
+
+
+
+## Current job
+
+
+
+## Political Scientist
+
+
+
+## Skills: R, Tableau, Database, Product Development, Agile, Scrum
+
+
+
