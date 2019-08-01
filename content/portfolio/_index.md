@@ -5,20 +5,29 @@ title = "Portfolio"
 
 +++
 
+This is a selection of things that I did over the last years to illustrate my skills and expertise.
 
-### This and that
 
+### Reportings
 
-### 
 
 
 ### Dissertation
 
 
-### Work in the Manifesto Project
 
-### Wahlprogrammquiz (Manifesto quiz)
-
+### Manifesto Corpus / Manifesto Dataset
 
 
-Passions
+
+### Zeit Online Artikel
+
+
+
+
+### Wahlprogrammquiz
+
+
+
+
+

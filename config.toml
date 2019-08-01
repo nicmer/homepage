@@ -15,28 +15,28 @@ blog  = "blog/:slug/"
 
 
 [[menu.main]]
-name                   = "About me"
-weight                 = -130
-identifier             = "about"
-url                    = "/about/"
+#name                   = "About me"
+#weight                 = -130
+#identifier             = "about"
+#url                    = "/about/"
 
 [[menu.main]]
-name                   = "Portfolio"
-weight                 = -130
-identifier             = "portfolio"
-url                    = "/portfolio/"
+#name                   = "Portfolio"
+#weight                 = -130
+#identifier             = "portfolio"
+#url                    = "/portfolio/"
 
 [[menu.main]]
-name                   = "More Passions"
-weight                 = -120
-identifier             = "passions"
-url                    = "/passions/"
+#name                   = "More Passions"
+#weight                 = -120
+#identifier             = "passions"
+#url                    = "/passions/"
 
 [[menu.main]]
-name                   = "Blog"
-weight                 = -110
-identifier             = "blog"
-url                    = "/blog/"
+#name                   = "Blog"
+#weight                 = -110
+#identifier             = "blog"
+#url                    = "/blog/"
 
 
 [params]
